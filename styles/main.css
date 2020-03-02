@@ -1,0 +1,89 @@
+html {
+    background: white url("../images/bats.gif") repeat;
+}
+body  {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+    width: 800px;
+    border: 3px solid black;
+    box-shadow: 1px 2px 9px 8px; 
+    background-color: white;
+    margin: auto;
+}
+a {
+    font-weight: bold;
+    color: orange;
+}
+a:link, a:visited { 
+    color: orange; 
+}
+a:hover, a:focus { 
+    color: green;
+}
+/* Header */
+header {
+    border-bottom: 3px solid black;
+    background: linear-gradient(45deg,white 5%, orange 70%, black 100%);
+    background-image: -webkit-linear-gradient(45deg,white 5%, orange 70%, black 100%);
+    background-image: -moz-linear-gradient(45deg,white 5%, orange 70%, black 100%);
+    background-image: -o-linear-gradient(45deg,white 5%, orange 70%, black 100%);
+    padding: .01em
+}
+header img { 
+	float: left; 
+    padding: 15px;
+    margin-top: auto
+} 
+header h2 {
+	font-size: 230%;
+	text-indent: 1px;
+    margin: .25em;
+}
+header h3 {
+	font-size: 125%;
+	text-indent: 5px;
+    margin-bottom: .5em;
+    margin-top: auto
+}
+/* Main */
+main {
+    margin-left: 1em;
+}
+main h1 { 
+	font-size: 140%;
+}
+main h1:first-letter { 
+	font-size: 240%;
+}
+main h2 {
+	font-size: 125%;
+}
+main h3 {
+	font-size: 110%;
+}
+ul {
+	line-height: 1.5;
+}
+/* Aside */
+aside {
+    width: 160px;
+    float: left;
+} 
+/* section */
+section {
+    padding-left: 160px;
+    padding-right: 1em;
+}
+/* Footer */
+footer {
+    border-top: 3px solid black;
+    background: linear-gradient(45deg, black 5%, orange 60%, white 100%);
+    background-image: -webkit-linear-gradient(45deg, black 5%, orange 60%, white 100%);
+    background-image: -moz-linear-gradient(45deg, black 5%, orange 60%, white 100%);
+    background-image: -o-linear-gradient(45deg, black 5%, orange 60%, white 100%);
+    padding: .01em;
+    clear: left
+}
+footer p {
+	font-size: 90%;
+	text-align: center;
+}
